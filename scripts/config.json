@@ -1,0 +1,24 @@
+{
+  "_comment": "DEVELOPER MODE: Disable restrictions for testing. Enable before production!",
+  "max_daily_limit": 10000,
+  "max_per_transaction": 5000,
+  "allowed_hours": {
+    "start": "00:00",
+    "end": "23:59"
+  },
+  "require_confirmation_above": 1000,
+  "whitelist_only": false,
+  "allowed_payees": [],
+  "allowed_apps": [
+    "*99#",
+    "com.phonepe.app",
+    "com.google.android.apps.nbu.paisa.user",
+    "net.one97.paytm"
+  ],
+  "screenshot_dir": "./screenshots",
+  "device_serial": null,
+  "agent_password": null,
+  "abort_on_disconnect": true,
+  "ussd_timeout": 30,
+  "ui_timeout": 10
+}
