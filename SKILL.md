@@ -1,12 +1,15 @@
 ---
 name: upi-ussd-automation
 description: >
-  Enable secure, voice or text-commanded UPI payments by remotely controlling an
-  Android device using scrcpy and ADB. Translates natural language payment
-  requests into structured USSD commands or UPI app automation, executes them
-  via remote device control, and confirms transaction status. Trigger when asked
-  to 'pay someone', 'send money via UPI', 'automate UPI payment', 'use USSD to
-  transfer', or any request involving remote device payment execution.
+  Secure UPI and USSD payment automation skill for Android remote control with
+  ADB/scrcpy, intent validation, human confirmation, and auditable execution.
+tags:
+  - upi
+  - ussd
+  - automation
+  - adb
+  - scrcpy
+  - android
 ---
 
 # Skill: UPI Payment Automation via USSD & Remote Device Control
